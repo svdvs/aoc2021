@@ -32,9 +32,10 @@ fun main() {
 
     // test if implementation meets criteria from the description, like:
     val testInput = readInput("one/Day01_test")
-    check(part2(testInput) == 6)
+    check(part1(testInput) == 7)
+    check(part2(testInput) == 5)
 
     val input = readInput("one/Day01")
+    println(part1(input))
     println(part2(input))
-//    println(part2(input))
 }
